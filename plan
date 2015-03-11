@@ -1,0 +1,32 @@
+Features:
+
+i)    Can upload a picture from computer
+      ==> Upload Controller
+
+ii)   Can display uploaded picture on the page
+      ==> Main Controller
+
+iii)  Can store uploaded picture in a database
+      ==> Backend code
+
+iv)   Can retrieve all uploaded pictures from
+      database
+      ==> LoadController
+
+
+
+
+Strategy:
+- Work quickly
+- Tackle things I like first i.e
+    - Algorithms
+    - Code
+    - Backend
+- Leave things I don't like till
+  later i.e
+    - Design
+  
+
+
+Today:
+i) Upload controller

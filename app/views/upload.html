@@ -1,0 +1,15 @@
+<p>This is the upload view.</p>
+
+
+<div flow-init flow-name="uploader.flow">
+  <button flow-btn ng-click="upload()">Add files</button>
+
+  <ul>
+    <li ng-repeat="file in uploader.flow.files">
+      <li>{{file.name}}</li>
+      <img flow-img="$flow.files[0]"/>
+    </li>
+  </ul>
+
+  <p>Total files: {{uploader.flow.files.length}}</p>
+</div>
